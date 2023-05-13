@@ -6,13 +6,13 @@ The encryption and decryption process will be performed on a 1024x1024 grayscale
 Problem Statement:
 The task was to implement the following modes of operation for DES encryption and decryption:
 
-    Electronic Code Book (ECB) Mode: Each 64-bit block of the plaintext is encrypted independently using the DES algorithm.
+Electronic Code Book (ECB) Mode: Each 64-bit block of the plaintext is encrypted independently using the DES algorithm.
 
-    Cipher Block Chaining (CBC) Mode: Each 64-bit block of the plaintext is XORed with the previous block's ciphertext before encryption using DES. The initialization vector (IV) is XORed with the first block of plaintext.
+Cipher Block Chaining (CBC) Mode: Each 64-bit block of the plaintext is XORed with the previous block's ciphertext before encryption using DES. The initialization vector (IV) is XORed with the first block of plaintext.
 
-    Cipher Feedback (CFB) Mode: The output of the previous encryption is XORed with the plaintext to produce the ciphertext. The feedback input to the DES algorithm is the previous block's ciphertext. The initialization vector (IV) is used as the first feedback input.
+Cipher Feedback (CFB) Mode: The output of the previous encryption is XORed with the plaintext to produce the ciphertext. The feedback input to the DES algorithm is the previous block's ciphertext. The initialization vector (IV) is used as the first feedback input.
 
-    Output Feedback (OFB) Mode: The output of the previous encryption is XORed with the plaintext to produce the ciphertext. The feedback input to the DES algorithm is the previous block's ciphertext. The initialization vector (IV) is used as the first feedback input.
+Output Feedback (OFB) Mode: The output of the previous encryption is XORed with the plaintext to produce the ciphertext. The feedback input to the DES algorithm is the previous block's ciphertext. The initialization vector (IV) is used as the first feedback input.
 
 Constraints
 
