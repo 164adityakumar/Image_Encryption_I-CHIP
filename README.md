@@ -1,4 +1,5 @@
 # Hardware Encryption using DES and AES Modes in Verilog & OpenCV
+I-CHIP Hackathon NITJ (1st Position) 
 
 This project aims to design a hardware encryption and decryption scheme for the Data Encryption Standard (DES) algorithm in four different modes of operation: Electronic Code Book (ECB) mode, Cipher Block Chaining (CBC) mode, Cipher Feedback (CFB) mode, and Output Feedback (OFB) mode. 
 The encryption and decryption process will be performed on a 1024x1024 grayscale image, where each pixel value ranges from 0 to 255. The hardware implementation will be synchronous with a base clock frequency of 100 MHz, and the output will be an encrypted image and the decrypted image obtained from it.
